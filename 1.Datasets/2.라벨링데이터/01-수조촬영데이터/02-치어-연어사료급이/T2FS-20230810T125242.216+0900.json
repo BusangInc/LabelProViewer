@@ -1,0 +1,344 @@
+﻿{
+	"id": 2746,
+	"annotations": [
+		{
+			"id": 10,
+			"category_id": 1,
+			"biomass": null,
+			"bounding_box": [
+				0,
+				553,
+				247,
+				620
+			]
+		},
+		{
+			"id": 20,
+			"category_id": 1,
+			"biomass": null,
+			"bounding_box": [
+				0,
+				610,
+				415,
+				724
+			]
+		},
+		{
+			"id": 30,
+			"category_id": 1,
+			"biomass": null,
+			"bounding_box": [
+				1186,
+				328,
+				1224,
+				375
+			]
+		},
+		{
+			"id": 40,
+			"category_id": 1,
+			"biomass": null,
+			"bounding_box": [
+				901,
+				432,
+				1195,
+				503
+			]
+		},
+		{
+			"id": 50,
+			"category_id": 1,
+			"biomass": null,
+			"bounding_box": [
+				1050,
+				237,
+				1224,
+				300
+			]
+		},
+		{
+			"id": 60,
+			"category_id": 1,
+			"biomass": null,
+			"bounding_box": [
+				595,
+				495,
+				1216,
+				650
+			]
+		},
+		{
+			"id": 70,
+			"category_id": 1,
+			"biomass": null,
+			"bounding_box": [
+				395,
+				508,
+				620,
+				561
+			]
+		},
+		{
+			"id": 80,
+			"category_id": 1,
+			"biomass": null,
+			"bounding_box": [
+				588,
+				0,
+				1027,
+				70
+			]
+		},
+		{
+			"id": 90,
+			"category_id": 1,
+			"biomass": null,
+			"bounding_box": [
+				873,
+				318,
+				1102,
+				387
+			]
+		},
+		{
+			"id": 100,
+			"category_id": 1,
+			"biomass": null,
+			"bounding_box": [
+				1118,
+				514,
+				1224,
+				555
+			]
+		},
+		{
+			"id": 110,
+			"category_id": 1,
+			"biomass": null,
+			"bounding_box": [
+				914,
+				422,
+				1179,
+				469
+			]
+		}
+	],
+	"segmentation_bitmap": {
+		"name": "T2FS-20230810T125242.216+0900.png"
+	},
+	"info": {
+		"name": "북태평양 연어",
+		"name_en": "Chum Salmon",
+		"scientific_name": "Oncorhynchus Keta",
+		"worker_id": 44
+	},
+	"farm": {
+		"id": 1,
+		"name": "경상북도 수산자원연구원",
+		"address": "경북 영덕군 병곡면 고래불로 178",
+		"location": {
+			"latitude": 36.5793871,
+			"longitude": 129.413785
+		}
+	},
+	"category": {
+		"id": 1,
+		"name": "치어",
+		"name_en": "Fry",
+		"code": "F",
+		"age": {
+			"min": 7,
+			"max": 12,
+			"unit": "months"
+		}
+	},
+	"tank": {
+		"id": 2,
+		"farm_id": 1,
+		"name": "2번 수조",
+		"type": "유수식",
+		"size": {
+			"radius": 520,
+			"height": 120,
+			"unit": "cm"
+		}
+	},
+	"growth_management": {
+		"id": 179,
+		"created_at": "2023-08-10T18:00:00+09:00",
+		"feed": [
+			{
+				"type": "연어사료",
+				"nutrition": {
+					"protein": "45%",
+					"fat": "24%"
+				},
+				"size": {
+					"name": "2호",
+					"size": 2,
+					"unit": "mm"
+				},
+				"amount": {
+					"value": 556,
+					"unit": "g"
+				},
+				"at": "2023-08-10T09:00:00+09:00"
+			},
+			{
+				"type": "연어사료",
+				"nutrition": {
+					"protein": "45%",
+					"fat": "24%"
+				},
+				"size": {
+					"name": "2호",
+					"size": 2,
+					"unit": "mm"
+				},
+				"amount": {
+					"value": 532,
+					"unit": "g"
+				},
+				"at": "2023-08-10T16:00:00+09:00"
+			}
+		],
+		"water": {
+			"ammonium": {
+				"value": 0.1,
+				"unit": "mg/L"
+			},
+			"nitrite": {
+				"value": 0.1,
+				"unit": "mg/L"
+			},
+			"nitrate": {
+				"value": 0,
+				"unit": "mg/L"
+			},
+			"measured_at": "2023-08-10T10:00:00+09:00"
+		}
+	},
+	"water": [
+		{
+			"temperature": {
+				"value": 21.6,
+				"unit": "celsius"
+			},
+			"salinity": {
+				"value": 34.3,
+				"unit": "ppt"
+			},
+			"do": {
+				"value": 2.7,
+				"unit": "mg/l"
+			},
+			"ph": {
+				"value": 6.6,
+				"unit": "pH"
+			},
+			"orp": {
+				"value": 303.7,
+				"unit": "mV"
+			},
+			"illuminance": {
+				"value": 72.5,
+				"unit": "lux"
+			},
+			"measured_at": "2023-08-10T12:52:00+09:00"
+		}
+	],
+	"sampling": [
+		{
+			"id": 241,
+			"size": {
+				"total_length": 212,
+				"fork_length": 196,
+				"body_depth": 40,
+				"unit": "mm"
+			},
+			"weight": {
+				"value": 93,
+				"unit": "g"
+			},
+			"measured_at": "2023-08-10T13:36:42+09:00"
+		},
+		{
+			"id": 240,
+			"size": {
+				"total_length": 211,
+				"fork_length": 195,
+				"body_depth": 39,
+				"unit": "mm"
+			},
+			"weight": {
+				"value": 92,
+				"unit": "g"
+			},
+			"measured_at": "2023-08-10T13:35:47+09:00"
+		},
+		{
+			"id": 243,
+			"size": {
+				"total_length": 194,
+				"fork_length": 186,
+				"body_depth": 34,
+				"unit": "mm"
+			},
+			"weight": {
+				"value": 70,
+				"unit": "g"
+			},
+			"measured_at": "2023-08-10T13:38:24+09:00"
+		},
+		{
+			"id": 239,
+			"size": {
+				"total_length": 191,
+				"fork_length": 180,
+				"body_depth": 42,
+				"unit": "mm"
+			},
+			"weight": {
+				"value": 138,
+				"unit": "g"
+			},
+			"measured_at": "2023-08-10T13:34:59+09:00"
+		},
+		{
+			"id": 245,
+			"size": {
+				"total_length": 194,
+				"fork_length": 180,
+				"body_depth": 37,
+				"unit": "mm"
+			},
+			"weight": {
+				"value": 72,
+				"unit": "g"
+			},
+			"measured_at": "2023-08-10T13:39:37+09:00"
+		}
+	],
+	"image": {
+		"file": {
+			"name": "T2FS-20230810T125242.216+0900.jpg",
+			"format": "jpg"
+		},
+		"resolution": {
+			"width": 1224,
+			"height": 1024,
+			"unit": "px"
+		},
+		"camera": {
+			"iso": 28,
+			"aperture": 2.8,
+			"shutter": {
+				"speed": 4003.84,
+				"unit": "ev"
+			}
+		},
+		"farm_id": 1,
+		"tank_id": 2,
+		"created_at": "2023-08-10T12:52:42.216+09:00"
+	}
+}
